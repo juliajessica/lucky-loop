@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Fortune</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="jumbotron text-center">
+        <h1>Reveal your fortune!</h1>
+      </div>
+      <form id="fortuneSurvey">
+        <div class="form-group">
+          <h2>Which of these unlucky omens have you encountered?</h2>
+          <input type="checkbox" name="fortunes" value="1" id="blackCat">A black cat has crossed your path<br>
+          <input type="checkbox" name="fortunes" value="1" id="mirrors">You have broken a mirror<br>
+          <input type="checkbox" name="fortunes" value="1" id="ladder">You have walked underneath a ladder<br>
+          <input type="checkbox" name="fortunes" value="1" id="salt">You have spilled salt without throwing a pinch of it over your shoulder<br>
+          <input type="checkbox" name="fortunes" value="1" id="purse">You have left your purse/bag on the ground<br>
+          <input type="checkbox" name="fortunes" value="1" id="666">You have had a bill total $6.66<br>
+          <input type="checkbox" name="fortunes" value="1" id="umbrella">You have opened an umbrella indoors<br>
+          <input type="checkbox" name="fortunes" value="1" id="haircut">You have gotten a haircut on Friday the 13th<br>
+          <input type="checkbox" name="fortunes" value="1" id="funeral">A funeral procession crossed your path on Friday the 13th<br>
+          <input type="checkbox" name="fortunes" value="1" id="bed">You have gotten out of bed on a different side than you got into.<br>
+        </div>
+        <button type="submit" class="btn btn-warning">Tell me my fortune!</button>
+      </form>
+      <div class="result" id="good">
+        <h3>Your luck is good!</h3>
+        <img src="https://whyevolutionistrue.files.wordpress.com/2017/06/happy-cat.jpg" >
+      </div>
+      <div class="result" id="ok">
+        <h3>Your luck is okay?</h3>
+        <img src="https://mediocreandrogyne.files.wordpress.com/2010/07/shaggy_the_cat.jpg">
+      </div>
+      <div class="result" id="bad">
+        <h3>Your luck is BAD. you need help.</h3>
+        <img src="http://proxvost.info/ln/en/gifs/pictures/gifs/angry_black_cat_2.gif">
+      </div>
+    </div>
+  </body>
+</html>
